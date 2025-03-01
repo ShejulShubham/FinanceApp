@@ -17,7 +17,7 @@ namespace FinanceApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Expenses");
         }
 
         public IActionResult Privacy()
